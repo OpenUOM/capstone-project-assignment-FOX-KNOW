@@ -44,7 +44,7 @@ const readTeachers = async () => {
             .then((teachers) => {
                 resolve(teachers);
             })
-            .catch((error) => {
+            .catch((error) => { 
                 reject(error);
             });
     });
